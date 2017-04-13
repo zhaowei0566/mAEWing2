@@ -1,0 +1,222 @@
+MSC Nastran V2014.1 (Intel Windows 7 Enterprise 6.1 7601) Control File: 
+----------------------------------------------------------------- 
+$ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[1])
+$ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[2])
+Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[5])
+JID='z:/elasticaxisproject/elasticaxis/nastran_results/fem_v1.2.1_cleaned_diffelmtyp/sol103.bdf'
+OUT='./sol103'
+MEM=2147090432      $ WORDS
+MACH='Intel'
+OPER='Windows 7 Enterprise'
+OSV='6.1 7601'
+MODEL='P5-4/7150 (ictas64-1)'
+NPROC='8'
+CONFIG=15
+NPROC=8
+symbol=DELDIR='c:/msc.software/msc_nastran/20141/msc20141/nast/del' $(program default)
+symbol=DEMODIR='c:/msc.software/msc_nastran/20141/msc20141/nast/demo' $(program default)
+symbol=LM_NO_SNMP=1 $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[8])
+symbol=SSSALTERDIR='c:/msc.software/msc_nastran/20141/msc20141/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/msc.software/msc_nastran/20141/msc20141/nast/tpl' $(program default)
+SDIR='c:/scratch/sol103.T5732_39'
+DBS='./sol103'
+SCR='no'
+SMEM=100
+BPOOL=2047MB
+NEWDEL='c:/msc.software/msc_nastran/20141/msc20141/win64i4/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='1701@trinidad.its.vt.edu'
+AUTHQUE=20
+MSGCAT='c:/msc.software/msc_nastran/20141/msc20141/win64i4/analysis.msg'
+MSGDEST='f06'
+NEWS='c:/msc.software/msc_nastran/20141/msc20141/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=C:\MSC.Software\MSC_Nastran\20141\msc20141\actran\win64\Actran_15.0.b.77592\bin; 
+MSC_JIDPATH= 
+PATH=c:\msc.software\msc_nastran\20141\msc20141\win64i4\nCode\bin;c:\msc.software\msc_nastran\20141\msc20141\win64i4\nvidia;c:\msc.software\msc_nastran\20141\msc20141\win64i4\lib;c:\msc.software\msc_nastran\20141\msc20141\win64i4;C:\Program Files\Microsoft HPC Pack 2008 R2\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\MSC.Software\Patran_x64\20141\bin;C:\Program Files\Tecplot\Tecplot 360 EX 2015 R2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\SIMULIA\Abaqus\Commands;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell 
+SCA_SERVICE_CATALOG=c:\msc.software\msc_nastran\20141\msc20141\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\msc.software\msc_nastran\20141\msc20141\res 
+Cmd Line:    C:\MSC.Software\MSC_Nastran\20141\msc20141\win64i4\nastran.exe JID=Z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\sol103.bdf 
+Current Dir: Z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp 
+Time Cmd:    c:\msc.software\msc_nastran\20141\msc20141\win64i4\msctime 
+Executable:  c:\msc.software\msc_nastran\20141\msc20141\win64i4\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                    16381 MB
+ Physical memory available:          10574 MB
+ Paging file size:                   32761 MB
+ Paging file size available:         26753 MB
+ Virtual memory:                   8388607 MB
+ Virtual memory available:         8388553 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         ictas64-1.aoe.vt.edu
+ Architecture:     win64i4
+ Platform:         Intel Windows 7 Enterprise 6.1 7601 (Windows Compute Cluster)
+ Model:            P5-4/7150
+ Clock freq.:      7158 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     15
+ Config number:    15
+ Physical memory:  16381 MB
+ Virtual memory:   32761 MB
+ Numeric format:   32-bit little-endian IEEE.
+ Bytes per word:   4
+ Disk block size:  512 bytes (128 words)
+ Remote shell cmd: "c:/msc.software/msc_nastran/20141/msc20141/win64i4/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Thu Apr  6 14:29:39 EDT 2017 
+ 14:29:40  Beginning Analysis
+SCA Kernel 15.8.298203 successfully initialized
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\MSCblas.dll" has been loaded.
+
+ 14:29:45  MSC Authorization Information - System Attributes (1004, 0)
+ 14:29:45  -----------------------------------------------------------
+  Date:          Thu Apr 06 14:29:45 2017
+  MSC Id:        001e4fbffe45 (ethernet) (Intel)
+  Hostname:      ictas64-1 (user jmohamed, display ictas64-1)
+  License files: 1701@trinidad.its.vt.edu
+  CEID:          5DBD1901-15495749
+  User:          jmohamed
+  Display:       ictas64-1
+  LAPI Version:  LAPI 9.7.4-3243 (FLEXlm 11.9.0.0)
+
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+  * *                                 * *
+  * *   MSC Customer Entitlement ID   * *
+  * *        5DBD1901-15495749        * *
+  * *                                 * *
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+
+ 14:29:50  MSC Authorization Information - Checkout Successful (1016, 0)
+ 14:29:50  -------------------------------------------------------------
+ 14:29:50  Acquired 1 license for MSC Nastran from license server on host trinidad.its.vt.edu
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_nodes.dat"
+ 14:29:50  3976 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_nodes.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_addspar.dat"
+ 14:29:50  156 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_addspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_leadspar.dat"
+ 14:29:50  120 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_leadspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_midspar.dat"
+ 14:29:50  100 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_midspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_rearspar.dat"
+ 14:29:50  56 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_rearspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_ribs.dat"
+ 14:29:50  809 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_ribs.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_topskin.dat"
+ 14:29:50  776 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_topskin.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_botskin.dat"
+ 14:29:50  776 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CB_botskin.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_leadspar.dat"
+ 14:29:50  72 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_leadspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_midspar.dat"
+ 14:29:50  72 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_midspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_rearspar.dat"
+ 14:29:50  80 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_rearspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_ribs_v2.dat"
+ 14:29:50  480 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_ribs_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_botskin_v2.dat"
+ 14:29:50  644 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_botskin_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_topskin_v2.dat"
+ 14:29:50  644 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_topskin_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_leadspar.dat"
+ 14:29:50  352 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_leadspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_rearspar.dat"
+ 14:29:50  344 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_rearspar.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_midribs_v2.dat"
+ 14:29:50  1009 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_midribs_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_xribs.dat"
+ 14:29:50  200 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_xribs.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_topskin_v2.dat"
+ 14:29:50  1660 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_topskin_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_botskin_v2.dat"
+ 14:29:50  1660 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_botskin_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_winglet.dat"
+ 14:29:50  1124 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_winglet.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\AdditionalNodesIMUs.bdf"
+ 14:29:50  16 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\AdditionalNodesIMUs.bdf"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CORD2R.dat"
+ 14:29:50  83 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CORD2R.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_material.dat"
+ 14:29:50  83 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_material.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\spc_suport.dat"
+ 14:29:50  3 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\spc_suport.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_PCOMP.dat"
+ 14:29:50  50 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_PCOMP.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_RBE2.dat"
+ 14:29:50  67 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_RBE2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CONM2_v2.dat"
+ 14:29:50  71 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CONM2_v2.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_TE_flaps_nodes.dat"
+ 14:29:50  684 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_TE_flaps_nodes.dat"
+ 14:29:50  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_TE_flaps_elements.dat"
+ 14:29:51  632 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_TE_flaps_elements.dat"
+ 14:29:51  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_LE_flaps_nodes.dat"
+ 14:29:51  171 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_LE_flaps_nodes.dat"
+ 14:29:51  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_LE_flaps_elements.dat"
+ 14:29:51  158 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_OW_LE_flaps_elements.dat"
+ 14:29:51  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_TE_flaps_nodes.dat"
+ 14:29:51  171 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_TE_flaps_nodes.dat"
+ 14:29:51  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_TE_flaps_elements.dat"
+ 14:29:51  158 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_IW_TE_flaps_elements.dat"
+ 14:29:51  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CBUSH_4_flaps.dat"
+ 14:29:51  38 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\mAEWing2_CBUSH_4_flaps.dat"
+ 14:29:51  Reading INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\RBE2_control_surfaces.dat"
+ 14:29:51  96 records read from INCLUDE file "z:\ElasticAxisProject\ElasticAxis\NASTRAN_results\FEM_v1.2.1_Cleaned_DiffElmTyp\RBE2_control_surfaces.dat"
+ 14:29:51  121 records read from JID file "z:/elasticaxisproject/elasticaxis/nastran_results/fem_v1.2.1_cleaned_diffelmtyp/sol103.bdf"
+ 14:29:51  A total of 17712 records were read from 37 files.
+
+Processing of bulk data entries is complete.
+
+ 14:29:53  Analysis started.
+ 14:29:53  Geometry access/verification to CAD part initiated (if needed).
+ 14:29:53  Geometry access/verification to CAD part successfully completed (if needed).
+ 14:29:53  Finite element model generation started.
+ 14:29:55  Finite element model generated 31350 degrees of freedom.
+ 14:29:55  Finite element model generation successfully completed.
+ 14:29:55  Application of Loads and Boundary Conditions to the finite element model started.
+ 14:29:55  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 14:29:55  Solution of the system equations for normal modes started.
+ 14:29:59  Solution of the system equations for normal modes successfully completed.
+ 14:30:06  Normal modes analysis completed.
+ 14:30:10  28 records read from JID file "z:/elasticaxisproject/elasticaxis/nastran_results/fem_v1.2.1_cleaned_diffelmtyp/sol103.bdf"
+ 14:30:10  NSEXIT: EXIT(0)
+ 14:30:10  Analysis complete  0
+Real:       29.675 seconds ( 0:00:29.675)
+User:       10.420 seconds ( 0:00:10.420)
+Sys:         4.726 seconds ( 0:00:04.726)
+ ==================================================
+ OS:      6.1
+ OEM ID: 9
+ Number of processors: 8
+ Page size: 4096
+ Processor type: 8664
+ Minimum application address: 10000
+ Maximum application address: fffeffff
+ Active processor mask: 255
+ Ram:  16381 Mb
+ ==================================================
+ Performance Comparisons can be found at:
+ http://web.mscsoftware.com/support/prod_support/nastran/performance/ 
+ ==================================================
+ ==================================================
+MSC Nastran finished Thu Apr  6 14:30:10 EDT 2017 
