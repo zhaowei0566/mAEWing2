@@ -10,3 +10,6 @@ Please cite our paper if you use mAEWing2 for your research
   note = {AIAA 2017 - 1392},
   year={2017}
 }
+
+
+Zhao W, Jrad M, Gupta R, Kapania RK. Multidisciplinary design analysis and optimization of performance adaptive aeroelastic wings.  AIAA atmospheric flight mechanics conference, AIAA SciTech 2017, Grapevine, Texas, AIAA 2017-1392
