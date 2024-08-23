@@ -11,6 +11,14 @@ Please cite our paper if you use mAEWing2 for your research
   year={2017}
 }
 
-Or
+and FEM updating of mAEWing2 as:
 
-Zhao W, Jrad M, Gupta R, Kapania RK. Multidisciplinary design analysis and optimization of performance adaptive aeroelastic wings.  AIAA atmospheric flight mechanics conference, AIAA SciTech 2017, Grapevine, Texas, AIAA 2017-1392, doi:10.2514/6.2017-1392
+ @article{zhao2019component,
+  title={Component data assisted finite element model updating of composite flying-wing aircraft using multi-level optimization},
+   author={Zhao, Wei and Gupta, Abhineet and Regan, Christopher D and Miglani, Jitish and Kapania, Rakesh K and Seiler, Peter J},
+   journal={Aerospace science and technology},
+   volume={95},
+   pages={105486},
+   year={2019},
+  publisher={Elsevier}
+}
